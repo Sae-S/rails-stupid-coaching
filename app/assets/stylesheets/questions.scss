@@ -1,0 +1,25 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1{
+  color: darkslategrey;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text" i] {
+    padding: 4px 8px;
+}
+
+input[type="submit" i] {
+  background-color: turquoise;
+  padding: 6px;
+  border-radius: 20%;
+};
+
+ a {
+   color: grey;
+   &:hover {
+     color: orange;
+   }
+ }
